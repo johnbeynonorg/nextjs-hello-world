@@ -9,7 +9,7 @@ services:
   - key: NODE_ENV
     value: production
   - key: TEST_VAR
-    sync: true
+    sync: false
 # Uncomment the following to deploy this app as a static site on render
 # - type: web
 #   name: nextjs-static
